@@ -1,4 +1,0 @@
-.vs
-ControlModule/bin
-ControlModule/obj
-ControlModule/Properties
