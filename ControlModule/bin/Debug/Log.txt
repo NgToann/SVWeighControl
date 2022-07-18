@@ -1,7 +1,0 @@
-﻿2021-04-10 03:36:34 Location.:Section Anex Production No.:109-8221 CartonNo.:44 CheckBy.:Testing Account Code.:192136a5-fbc1-4d21-94d2-8d26f50f1d97 Time:4/10/2021 3:36:34 PM
-2021-04-10 03:40:53 Location.:Section Anex Production No.:109-8221 CartonNo.:54 CheckBy.:Testing Account Code.:1dd98e9c-ed6a-4ad3-a449-d0e51b031901 Time:4/10/2021 3:40:53 PM
-2021-04-10 03:41:31 Location.:Section Anex Production No.:109-8221 CartonNo.:19 CheckBy.:Testing Account Code.:58cc45e3-effb-4963-b076-06adeaf61f55 Time:4/10/2021 3:41:31 PM
-2021-04-14 10:39:25 Location.:Section Anex Production No.:110-1067 CartonNo.:0 Reason.:False Positive CheckBy.:Testing Account Code.:2794c0c1-6db0-4dcc-9396-f10b3a44b450 Time:4/14/2021 10:39:25 AM
-2021-04-14 10:48:14 Location.:Section Anex Production No.:109-5074 CartonNo.:0 Reason.:Positive CheckBy.:Testing Account Code.:a29d8bf6-7958-46d7-a7be-f2649df38a56 Time:4/14/2021 10:48:14 AM
-2021-04-14 10:50:06 Location.:Section Anex Production No.:109-8223 CartonNo.:0 Reason.:False Positive CheckBy.:Testing Account Code.:7ebfdc3e-cc7a-494e-be0e-3487452d2e72 Time:4/14/2021 10:50:06 AM
-2021-04-14 10:54:12 Location.:Section Anex Production No.:109-8224 CartonNo.:0 Reason.:False Positive CheckBy.:Testing Account Code.:8f290e7e-2724-4a1d-89fb-9ba34ffed1af Time:4/14/2021 10:54:12 AM
