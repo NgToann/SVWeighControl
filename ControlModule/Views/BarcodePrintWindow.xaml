@@ -1,0 +1,26 @@
+﻿<Window x:Class="ControlModule.Views.BarcodePrintWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Saoviet Loading System - Barcode Print" Height="Auto" Width="Auto" WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight" Loaded="Window_Loaded">
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Border BorderBrush="Gray" BorderThickness="1,1,1,1">
+                <Image x:Name="imageBarcode" Width="250" Height="75"/>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+            <TextBlock Text="Margin Left:" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtMarginLeft" Margin="5,0,0,0" MinWidth="50" Text="0"/>
+            <TextBlock Text="Margin Top:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtMarginTop" Margin="5,0,0,0" MinWidth="50" Text="0"/>
+            <TextBlock Text="Quantity:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtQuantity" Margin="5,0,0,0" MinWidth="50" Text="0"/>
+            <Button x:Name="btnPrint" Content="Print" MinWidth="100" Margin="10,0,0,0" Click="btnPrint_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,67 @@
+D:\Saoviet Weight Control Solution\ControlModule\bin\Release\Reports\CompareWeightReport.rdlc
+D:\Saoviet Weight Control Solution\ControlModule\bin\Release\LoadingSystem.exe.config
+D:\Saoviet Weight Control Solution\ControlModule\bin\Release\LoadingSystem.exe
+D:\Saoviet Weight Control Solution\ControlModule\bin\Release\LoadingSystem.pdb
+D:\Saoviet Weight Control Solution\ControlModule\bin\Release\BarcodeLib.dll
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\ControlModule.csproj.ResolveComReference.cache
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\App.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\ControlProblemWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\NewImportPackingListWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\ImportPackingListWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\MainWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\BarcodePrintWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\CartonNumberingWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\CompareWeightWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\PackingReportWindow.baml
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\App.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\ControlProblemWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\NewImportPackingListWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\ImportPackingListWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\MainWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\BarcodePrintWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\CartonNumberingWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\CompareWeightWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\Views\PackingReportWindow.g.cs
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\LoadingSystem_MarkupCompile.cache
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\LoadingSystem.g.resources
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\ControlModule.Properties.Resources.resources
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\LoadingSystem.exe
+D:\Saoviet Weight Control Solution\ControlModule\obj\x86\Release\LoadingSystem.pdb
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\bin\Release\LoadingSystem.exe.config
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\ControlModule.csproj.ResolveComReference.cache
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\LoadingSystem.exe
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\LoadingSystem.pdb
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\bin\Release\Reports\CompareWeightReport.rdlc
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\bin\Release\LoadingSystem.exe
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\bin\Release\LoadingSystem.pdb
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\bin\Release\BarcodeLib.dll
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\ControlModule.csprojResolveAssemblyReference.cache
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\App.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ControlProblemWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ImportPORepackingWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\NewImportPackingListWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ImportPackingListWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\MainWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\BarcodePrintWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\CartonNumberingWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\CompareWeightWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\PackingReportWindow.baml
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\App.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ControlProblemWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ImportPORepackingWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\NewImportPackingListWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\ImportPackingListWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\MainWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\BarcodePrintWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\CartonNumberingWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\CompareWeightWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\Views\PackingReportWindow.g.cs
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\LoadingSystem_MarkupCompile.cache
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\LoadingSystem.g.resources
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\ControlModule.Properties.Resources.resources
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\ControlModule.csproj.GenerateResource.Cache
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\RdlCompile.cache
+C:\Users\IT02\Desktop\Weight Control\Saoviet Weight Control Solution_2.0.3.1\ControlModule\obj\x86\Release\RdlCompile.compiled

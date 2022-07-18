@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PackingDataSet" targetNamespace="http://tempuri.org/PackingDataSet.xsd" xmlns:mstns="http://tempuri.org/PackingDataSet.xsd" xmlns="http://tempuri.org/PackingDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PackingDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PackingDataSet" msprop:Generator_UserDSName="PackingDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PackingTable" msprop:Generator_TableClassName="PackingTableDataTable" msprop:Generator_TableVarName="tablePackingTable" msprop:Generator_TablePropName="PackingTable" msprop:Generator_RowDeletingName="PackingTableRowDeleting" msprop:Generator_RowChangingName="PackingTableRowChanging" msprop:Generator_RowEvHandlerName="PackingTableRowChangeEventHandler" msprop:Generator_RowDeletedName="PackingTableRowDeleted" msprop:Generator_UserTableName="PackingTable" msprop:Generator_RowChangedName="PackingTableRowChanged" msprop:Generator_RowEvArgName="PackingTableRowChangeEvent" msprop:Generator_RowClassName="PackingTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumberOf" msprop:Generator_ColumnVarNameInTable="columnNumberOf" msprop:Generator_ColumnPropNameInRow="NumberOf" msprop:Generator_ColumnPropNameInTable="NumberOfColumn" msprop:Generator_UserColumnName="NumberOf" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductNo" msprop:Generator_ColumnVarNameInTable="columnProductNo" msprop:Generator_ColumnPropNameInRow="ProductNo" msprop:Generator_ColumnPropNameInTable="ProductNoColumn" msprop:Generator_UserColumnName="ProductNo" type="xs:string" minOccurs="0" />
+              <xs:element name="SizeNo" msprop:Generator_ColumnVarNameInTable="columnSizeNo" msprop:Generator_ColumnPropNameInRow="SizeNo" msprop:Generator_ColumnPropNameInTable="SizeNoColumn" msprop:Generator_UserColumnName="SizeNo" type="xs:string" minOccurs="0" />
+              <xs:element name="IsCartonNoBasic" msprop:Generator_ColumnVarNameInTable="columnIsCartonNoBasic" msprop:Generator_ColumnPropNameInRow="IsCartonNoBasic" msprop:Generator_ColumnPropNameInTable="IsCartonNoBasicColumn" msprop:Generator_UserColumnName="IsCartonNoBasic" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PackingValue" msprop:Generator_ColumnVarNameInTable="columnPackingValue" msprop:Generator_ColumnPropNameInRow="PackingValue" msprop:Generator_ColumnPropNameInTable="PackingValueColumn" msprop:Generator_UserColumnName="PackingValue" type="xs:string" minOccurs="0" />
+              <xs:element name="IsFirstPass" msprop:Generator_ColumnVarNameInTable="columnIsFirstPass" msprop:Generator_ColumnPropNameInRow="IsFirstPass" msprop:Generator_ColumnPropNameInTable="IsFirstPassColumn" msprop:Generator_UserColumnName="IsFirstPass" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

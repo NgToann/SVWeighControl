@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EADC48A2-850F-4EDF-AD1D-B76AB321D4A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlModule</RootNamespace>
+    <AssemblyName>LoadingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LoadingSystemIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\PhucNguyen\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UsbHid">
+      <HintPath>\\Sv-qc\qc\USB2550HidTest\USB2550HidTest\bin\Debug\UsbHid.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartonNumberingDetailController.cs" />
+    <Compile Include="Controllers\ControlAccountController.cs" />
+    <Compile Include="Controllers\ElectricScaleController.cs" />
+    <Compile Include="Controllers\FCatPOController.cs" />
+    <Compile Include="Controllers\MailAddressReceiveMessageController.cs" />
+    <Compile Include="Controllers\PackingController.cs" />
+    <Compile Include="Controllers\PORepackingController.cs" />
+    <Compile Include="Controllers\StoringController.cs" />
+    <Compile Include="DataSets\CartonNumberingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CartonNumberingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PackingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PackingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\ConnectTo.cs" />
+    <Compile Include="Helpers\AppSettingsHelper.cs" />
+    <Compile Include="Helpers\ComPortHelper.cs" />
+    <Compile Include="Helpers\ElectricScaleProfileHelper.cs" />
+    <Compile Include="Helpers\LogHelper.cs" />
+    <Compile Include="Models\AccountModel.cs" />
+    <Compile Include="Models\CartonNumberingDetailModel.cs" />
+    <Compile Include="Models\ControlAccountModel.cs" />
+    <Compile Include="Models\ElectricScaleSource.cs" />
+    <Compile Include="Models\FcatPOModel.cs" />
+    <Compile Include="Models\MailAddressReceiveMessageModel.cs" />
+    <Compile Include="Models\PORepackingModel.cs" />
+    <Compile Include="Models\StoringModel.cs" />
+    <Compile Include="Views\ControlProblemWindow.xaml.cs">
+      <DependentUpon>ControlProblemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DeletePOWindow.xaml.cs">
+      <DependentUpon>DeletePOWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportFCATPOWindow.xaml.cs">
+      <DependentUpon>ImportFCATPOWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportPackingListDIESELPOWindow.xaml.cs">
+      <DependentUpon>ImportPackingListDIESELPOWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportPORepackingWindow.xaml.cs">
+      <DependentUpon>ImportPORepackingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewImportPackingListWindow.xaml.cs">
+      <DependentUpon>NewImportPackingListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportPackingListWindow.xaml.cs">
+      <DependentUpon>ImportPackingListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PackingModel.cs" />
+    <Compile Include="Views\CompareWeightWindow.xaml.cs">
+      <DependentUpon>CompareWeightWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PackingReportWindow.xaml.cs">
+      <DependentUpon>PackingReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Controllers\CartonNumberingController.cs" />
+    <Compile Include="Entities\SaovietWeightControlModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaovietWeightControlModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ProgramHelper.cs" />
+    <Compile Include="ViewModels\CartonNumberingViewModel.cs" />
+    <Compile Include="Views\BarcodePrintWindow.xaml.cs">
+      <DependentUpon>BarcodePrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CartonNumberingWindow.xaml.cs">
+      <DependentUpon>CartonNumberingWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\ControlProblemWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DeletePOWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImportFCATPOWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImportPackingListDIESELPOWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImportPORepackingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewImportPackingListWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ImportPackingListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\BarcodePrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CartonNumberingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompareWeightWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PackingReportWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\CartonNumberingModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CompareWeightReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Entities\SaovietWeightControlModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SaovietWeightControlModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataSets\CartonNumberingDataSet.xsc">
+      <DependentUpon>CartonNumberingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CartonNumberingDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CartonNumberingDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CartonNumberingDataSet.xss">
+      <DependentUpon>CartonNumberingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PackingDataSet.xsc">
+      <DependentUpon>PackingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PackingDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PackingDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\PackingDataSet.xss">
+      <DependentUpon>PackingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\ControlModule.DataSets.CartonNumberingDataSet.datasource" />
+    <None Include="Properties\DataSources\ControlModule.DataSets.PackingDataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LoadingSystemIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
